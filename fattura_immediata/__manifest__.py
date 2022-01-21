@@ -41,7 +41,8 @@
                 'l10n_it_fiscalcode',
                 'l10n_it_payment_reason',
                 'l10n_it_pec',
-                'l10n_it_rea'],
+                'l10n_it_rea'
+                'l10n_it_split_payment'],
 
     # always loaded
     'data': [
