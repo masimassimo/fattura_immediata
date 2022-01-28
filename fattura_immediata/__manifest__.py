@@ -16,7 +16,7 @@
     # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Uncategorized',
-    'version': '0.4',
+    'version': '0.5',
 
     # any module necessary for this one to work correctly
     'depends': ['base',
@@ -41,8 +41,10 @@
                 'l10n_it_fiscalcode',
                 'l10n_it_payment_reason',
                 'l10n_it_pec',
-                'l10n_it_rea'
-                'l10n_it_split_payment'],
+                'l10n_it_rea',
+                'l10n_it_split_payment',
+                'mai_pos_lotnumer_selection',
+               ],
 
     # always loaded
     'data': [
